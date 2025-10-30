@@ -1,0 +1,109 @@
+# API Keys and Environment Variables
+.env
+*.env
+.env.local
+.env.production
+.env.staging
+.env.development
+*api_key*
+*API_KEY*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Streamlit
+.streamlit/
+streamlit.log
+*.log
+
+# Screenshots and temporary files
+.browser_screenshots/
+screenshots/
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model files (if any)
+*.pkl
+*.joblib
+*.model
+
+# Data files (if sensitive)
+data/
+*.csv
+*.json
+*.xlsx
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
