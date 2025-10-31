@@ -216,7 +216,7 @@ async def run_all_examples():
     print("\n🚀 Try these commands:")
     print("   • python uqlm_cli_demo.py --help")
     print("   • python uqlm_cli_demo.py --demo-mode --method all")
-    print("   • streamlit run uqlm_demo.py")
+    print("   • streamlit run uqlm_app.py")
 
 def main():
     """Main function."""

@@ -22,7 +22,7 @@ A comprehensive Streamlit application for testing and demonstrating various unce
 1. Clone or download this repository
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r projects/uc_exploration/requirements.txt
    ```
 
 ### Dependencies
@@ -40,7 +40,7 @@ The application requires the following packages:
 
 1. Start the Streamlit app:
    ```bash
-   streamlit run uqlm_app.py
+   streamlit run projects/uc_exploration/uqlm_app.py
    ```
 
 2. Open your browser to `http://localhost:8501`
@@ -105,7 +105,7 @@ Try these example prompts to test the system:
 ### Option 2: Environment Variable
 ```bash
 export GOOGLE_API_KEY="your_api_key_here"
-streamlit run uqlm_app.py
+streamlit run projects/uc_exploration/uqlm_app.py
 ```
 
 ### Getting a Google API Key
