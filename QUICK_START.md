@@ -11,12 +11,15 @@ A complete **UQLM (Uncertainty Quantification for Language Models)** application
 - ✅ **No Demo Mode** - Requires real API key, no fallback modes
 - ✅ **Event Loop Fixed** - Proper async handling for Streamlit
 
-## 🎯 Current Status
+## 🎯 Getting Started
 
-**✅ WORKING**: Your Streamlit app is running at:
-- **URL**: https://work-1-znsrvdfnknircqsl.prod-runtime.all-hands.dev/
-- **Port**: 12000
-- **Status**: Active and ready for testing
+To run the UQLM application:
+
+```bash
+streamlit run projects/uc_exploration/uqlm_app.py
+```
+
+The app will be available at `http://localhost:8501`
 
 ## 🔑 What You Need
 
@@ -26,26 +29,27 @@ A complete **UQLM (Uncertainty Quantification for Language Models)** application
 ## 🧪 How to Test
 
 ### Option 1: Web Interface (Recommended)
-1. Visit: https://work-1-znsrvdfnknircqsl.prod-runtime.all-hands.dev/
-2. Enter your Google API Key in the sidebar
-3. Select a Gemini model (default: gemini-2.0-flash)
-4. Choose UQ methods to test
-5. Enter a prompt like: "What are the main causes of climate change?"
-6. Click "Run Uncertainty Quantification"
+1. Run `streamlit run projects/uc_exploration/uqlm_app.py`
+2. Visit `http://localhost:8501`
+3. Enter your Google API Key in the sidebar
+4. Select a Gemini model (default: gemini-2.0-flash)
+5. Choose UQ methods to test
+6. Enter a prompt like: "What are the main causes of climate change?"
+7. Click "Run Uncertainty Quantification"
 
 ### Option 2: CLI Test Script
 ```bash
-cd /workspace/project
-python test_uqlm_cli.py
+cd /workspace/project/AI-Explorer
+python projects/uc_exploration/uqlm_cli_demo.py
 ```
 This will test BlackBox UQ, WhiteBox UQ, and Semantic Entropy methods.
 
 ## 📁 Key Files
 
-- **`uqlm_app.py`** - Main Streamlit application
-- **`gemini_whitebox_llm.py`** - Custom LLM with log probabilities for WhiteBox UQ
-- **`test_uqlm_cli.py`** - CLI testing script
-- **`requirements.txt`** - All dependencies
+- **`projects/uc_exploration/uqlm_app.py`** - Main Streamlit application
+- **`projects/uc_exploration/gemini_whitebox_llm.py`** - Custom LLM with log probabilities for WhiteBox UQ
+- **`projects/uc_exploration/uqlm_cli_demo.py`** - CLI testing script
+- **`projects/uc_exploration/requirements.txt`** - All dependencies
 - **`README.md`** - Comprehensive documentation
 
 ## 🎯 Available UQ Methods
